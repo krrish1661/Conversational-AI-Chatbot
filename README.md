@@ -176,7 +176,7 @@
         const messageInput = document.getElementById("message-input");
         const sendButton = document.getElementById("send-button");
         const loadingIndicator = document.getElementById("loading-indicator");
-        const apiKey = "AIzaSyCtHlWN0S2c5kiD5Qq9IvTw-NiFuP5bb9k"; // VERY IMPORTANT: REPLACE WITH YOUR GEMINI API KEY
+        const apiKey = "ADD API KEY HERE"; // VERY IMPORTANT: REPLACE WITH YOUR GEMINI API KEY
 
         sendButton.addEventListener("click", sendMessage);
         messageInput.addEventListener("keydown", (event) => {
